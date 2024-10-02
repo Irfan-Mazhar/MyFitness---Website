@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Fitness</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Kanit:wght@100&family=Poppins:wght@100&family=Roboto:wght@100&family=Teko:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" media="screen and (max-width: 1516px)" href="phone.css">
+  </head>
+  <body>
+    <nav id="navbar">
+      <div id="logo">
+        <img src="Images/logo3.png" alt="Logo" height="100" />
+      </div>
+      <ul>
+        <li class="item"><a href="#home">Home</a></li>
+        <li class="item"><a href="#service-container">Services</a></li>
+        <li class="item"><a href="#diet">Meals</a></li>
+        <li class="item"><a href="#aboutus">About Us</a></li>
+      </ul>
+    </nav>
+    <section id="home">
+      <h1 class="h-primary">Want to get STRONGER than ever??</h1>
+      <p>Sign Up Now!</p>
+      <p>
+        Start your free 30-day trial now! You can cancel anytime you want.
+      </p>
+      <button class="btn">Sign Up</button>
+    </section>
+      <section id="service-container">
+        <h2 class="h-secondary">Our Services</h2>
+        <div id="services">
+          <div class="box">
+            <img src="Images/calisthenics.jpg" alt="" />
+            <p>CALISTHENICS</p>
+          </div>
+          <div class="box">
+            <img src="Images/weights (1).jpg" alt="" />
+            <p>WEIGHT LIFTING</p>
+          </div>
+          <div class="box">
+            <img src="Images/yoga.jpg" alt="" />
+            <p>YOGA</p>
+          </div>
+        </div>
+      </section>
+    <section id="diet">
+      <div>
+        <h2 class="h-secondary layer">
+          <span>Order Meals from our own Kitchen!</span>
+        </h2>
+        <button class="btn">
+          <a href="https://faheem-5eem.github.io/RESTAURANT/">Order Now</a>
+        </button>
+      </div>
+    </section>
+
+    <section id="aboutus">
+      <h2 class="h-secondary">About Us</h2>
+      <div class="box">
+        <p>
+            "Welcome to our fitness haven! At MyFitness, we are dedicated to empowering individuals on their journey to optimal health and vitality. Founded on the belief that fitness is not just a physical pursuit but a holistic lifestyle, we strive to create a supportive community where every member feels inspired, motivated, and valued.
+
+            With a team of passionate fitness experts, we offer a diverse range of programs tailored to suit all fitness levels, from beginners to seasoned athletes. Whether you're aiming to build strength, improve flexibility, shed excess weight, or simply enhance your overall well-being, we've got you covered.
+            
+            Our mission extends beyond mere workouts; we aim to foster a culture of wellness that encompasses mindful nutrition, positive mindset, and sustainable lifestyle habits. Through personalized training sessions, group classes, nutritional guidance, and ongoing support, we're here to help you achieve your goals and unleash your full potential.
+            
+            At MyFitness, we believe in the transformative power of movement, the joy of progress, and the strength of community. Join us today, and let's embark on this exhilarating journey together towards a healthier, happier you!"
+        </p>
+      </div>
+    </section>
+    <footer>
+      <div>Copyright &copy; www.myfitness.com. All rights reserved.</div>
+    </footer>
+    <script>
+      var prevScrollpos = window.pageYOffset;
+      window.onscroll = function () {
+        var currentScrollPos = window.pageYOffset;
+        if (prevScrollpos > currentScrollPos) {
+          document.getElementById("navbar").style.top = "0";
+        } else {
+          document.getElementById("navbar").style.top = "-100%";
+        }
+        prevScrollpos = currentScrollPos;
+      };
+    </script>
+  </body>
+</html>

@@ -1,0 +1,156 @@
+body{
+    /* background-color: red; */
+}
+/* #logo{
+    margin: 6px 0px 0px 253px;
+    padding: 5px 3px;
+}
+#navbar ul{
+    margin-left: 253px;
+}
+#navbar::before{
+    width: 239%;
+}
+#home::before{
+    height: 104%;
+    width: 239%;
+} */
+#service-container{
+    margin: 0px 250px;
+    margin-bottom: 829px;
+}
+#services{
+    flex-direction: column;
+}
+#serives .box img{
+    /* height:auto; */
+}
+
+#navbar{
+    flex-direction: column;
+}
+@media (max-width:1080px){
+    #services .box img {
+        width: 100%;
+        height: auto;
+        max-width: 300px; /* Adjust as needed */
+      }
+}
+@media (max-width: 930px) {
+    body{
+        overflow-x: hidden;
+    }
+    #navbar {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    #navbar ul {
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+    }
+  
+    #navbar ul li {
+      font-size: 30px;
+    }
+  
+    #navbar ul li a {
+      padding: 3px 20px;
+    }
+  
+    #logo {
+      margin: 5px auto;
+    }
+    #logo img{
+        height: 96px;
+        padding: 1px;
+    }
+  
+    #home {
+      padding: 20px;
+      height: auto;
+    }
+  
+    .h-primary {
+      font-size: 2.3rem;
+      padding: 0px;
+    }
+  
+    #home p {
+      font-size: 1.1rem;
+      margin: 7px 0;
+    }
+  
+    .btn {
+      padding: 5px 20px;
+      font-size: 1rem;
+      margin: 5px;
+      margin-bottom: 45%;
+    }
+  
+    #service-container {
+      margin: 50px 20px 105%; 
+      /* 463px */
+    }
+    #services .box img {
+        width: 100%;
+        height: auto;
+        max-width: 300px; /* Adjust as needed */
+      }
+    #services {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    #services .box {
+      width: 80%;
+      margin: 20px 0;
+      padding: 20px;
+    }
+  
+    #services p {
+      font-size: 1.1rem;
+    }
+  
+    .h-secondary {
+      font-size: 2rem;
+      margin-bottom: -48px;
+    }
+  
+    #diet div {
+      height: auto;
+      padding: 50px 20px;
+      margin-bottom: -64px;
+    }
+  
+    #diet .btn {
+      width: 150px;
+      margin: 121px auto 50%;
+    }
+  
+    #aboutus .box {
+      width: 90%;
+      padding: 0px;
+      font-size: 1rem;
+    }
+  
+    footer {
+      font-size: 0.9rem;
+    }
+  }
+
+  @media (max-width: 576px) {
+    .btn {
+        margin-bottom: 65%;
+      }
+      #service-container {
+        margin: 50px 20px 132%; 
+        /* 463px */
+      }
+      #diet .btn {
+        margin: 121px auto 60%;
+      }
+   }
+  
+
